@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+
+@font-face {
+  font-family: MontserratRegular;
+  src: url(./assets/fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src: url(./assets/fonts/Montserrat/static/Montserrat-Medium.ttf);
+}
+
+@font-face {
+  font-family: MontserratSemiBold;
+  src: url(./assets/fonts/Montserrat/static/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: MontserratBold;
+  src: url(./assets/fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+
+@font-face {
+  font-family: NunitoRegular;
+  src: url(./assets/fonts/Nunito/static/Nunito-Regular.ttf);
+}
+
+@font-face {
+  font-family: NunitoExtraBold;
+  src: url(./assets/fonts/Nunito/static/Nunito-ExtraBold.ttf);
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
