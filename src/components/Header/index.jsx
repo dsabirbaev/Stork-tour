@@ -15,10 +15,10 @@ const index = () => {
                         <li><a href="#">Отзывы</a></li>
                     </ul>
 
-                    <select className="font-['NunitoExtraBold'] bg-transparent">
-                        <option value="RUS">RUS</option>
-                        <option value="UZB">UZB</option>
-                        <option value="ENG">ENG</option>
+                    <select className="font-['NunitoExtraBold'] bg-transparent px-1 outline-none">
+                        <option className="mb-[6px] text-black" value="RUS">RUS</option>
+                        <option value="UZB" className="text-black">UZB</option>
+                        <option value="ENG" className="text-black">ENG</option>
                     </select>
                 </nav>
             </div>

@@ -3,7 +3,7 @@
 import { Speed, Security, Like } from "../../components/Icons";
 const index = () => {
     return (
-        <section>
+        <section className="pb-[80px]">
             <div className="container">
                 <div className="flex flex-col">
                     <h2 className="text-[#0154A7] font-['MontserratSemiBold'] text-[48px] mb-2">Развлекательная программа</h2>
