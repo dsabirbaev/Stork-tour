@@ -7,6 +7,8 @@ import { RouterProvider } from "react-router-dom";
 
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 
+import i18next from "./i18n";
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
      
