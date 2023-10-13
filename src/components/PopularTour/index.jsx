@@ -3,8 +3,12 @@
 
 import pic from "../../assets/images/popular.png";
 import pic2 from "../../assets/images/popular2.jpg";
+
+
 import "./style.scss";
 const index = () => {
+
+
     return (
         <section className="pb-[110px]">
             <div className="container">
@@ -47,8 +51,11 @@ const index = () => {
                         </div>
                     </div>
                 </div>
+
             </div>
+            
         </section>
+        
     );
 };
 

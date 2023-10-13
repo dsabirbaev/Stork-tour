@@ -25,7 +25,7 @@ const index = () => {
                      width="100%" height="500" 
                      src="https://www.youtube.com/embed/x0k7RAq71pE" 
                      title="Древняя и новая история Самарканда" 
-                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
+                     frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen>
                         
                      </iframe>
                 </div>

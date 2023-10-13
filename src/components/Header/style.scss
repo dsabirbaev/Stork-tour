@@ -4,4 +4,27 @@ header {
     select{
         -webkit-appearance: none; 
     }
+
+    
+}
+
+
+
+
+
+.list-item{
+    position: relative;
+    &::after{
+        content: "";
+        background-color: #0154A7;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        height: 2px;
+        width: 0;
+        transition: all 0.3s ease;
+    }
+    &:hover::after{
+        width: 100%;
+    }
 }

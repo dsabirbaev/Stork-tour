@@ -48,6 +48,7 @@ const index = () => {
 
                     <div className="text-center text-[#1E1E1E] font-['MontserratRegular'] opacity-[0.5] text-[14px]">
                         <p>Авторские права © 2023 • Все правы защищены.</p>
+                       
                     </div>
                 </div>
 
