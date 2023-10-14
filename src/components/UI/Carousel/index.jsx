@@ -52,10 +52,10 @@ const index = ({img}) => {
                             </div>
                         </SwiperSlide>
                        
-                        <div className="button-next-slide absolute top-[-130px] right-2 bg-[#0154A7] w-[44px] h-[44px] rounded-full flex items-center justify-center cursor-pointer">
+                        <div className="active:bg-sky-200 button-next-slide absolute top-[-130px] right-2 bg-[#0154A7] w-[44px] h-[44px] rounded-full flex items-center justify-center cursor-pointer">
                            <ArrowRight/> 
                         </div>
-                        <div className="button-prev-slide absolute top-[-130px] right-[60px] bg-[#0154A7] w-[44px] h-[44px] rounded-full flex items-center justify-center cursor-pointer">
+                        <div className="active:bg-sky-200 button-prev-slide absolute top-[-130px] right-[60px] bg-[#0154A7] w-[44px] h-[44px] rounded-full flex items-center justify-center cursor-pointer">
                             <ArrowLeft/>
                         </div>
                     </Swiper>

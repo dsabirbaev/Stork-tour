@@ -1,0 +1,46 @@
+
+
+
+.twitter{
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: #0154A7;
+    }
+    &:hover .icon-twitter{
+        fill: white;
+    }
+    
+}
+
+.facebook{
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: #0154A7;
+    }
+    &:hover .icon-facebook{
+        fill: white;
+    }
+    
+}
+
+.youtube{
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: #0154A7;
+    }
+    &:hover .icon-youtube{
+        fill: white;
+    }
+    
+}
+
+.insta{
+    transition: all 0.3s ease;
+    &:hover{
+        background-color: #0154A7;
+    }
+    &:hover .icon-insta{
+        fill: white;
+    }
+    
+}

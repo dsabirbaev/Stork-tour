@@ -31,19 +31,19 @@ const index = () => {
                         <ul className="flex flex-col gap-y-[10px]">
                             <li className="text-[#1E1E1E] font-['MontserratSemiBold'] text-[18px] mb-[15px]">{t("footerSocials")}</li>
                             <li className="flex justify-between items-center gap-x-[10px] cursor-pointer">
-                                <span className="w-[48px] h-[48px] rounded-full border border-[#0154A7] flex items-center justify-center">
+                                <span className="twitter  w-[48px] h-[48px] rounded-full border border-[#0154A7] flex items-center justify-center">
                                     <Twitter/>
                                 </span>
 
-                                <span className="w-[48px] h-[48px] rounded-full border border-[#0154A7] flex items-center justify-center">
+                                <span className="facebook w-[48px] h-[48px] rounded-full border border-[#0154A7] flex items-center justify-center">
                                     <Facebook/>
                                 </span>
 
-                                <span className="w-[48px] h-[48px] rounded-full border border-[#0154A7] flex items-center justify-center">
+                                <span className="youtube w-[48px] h-[48px] rounded-full border border-[#0154A7] flex items-center justify-center">
                                     <YouTube/>
                                 </span>
 
-                                <span className="w-[48px] h-[48px] rounded-full border border-[#0154A7] flex items-center justify-center">
+                                <span className="insta w-[48px] h-[48px] rounded-full border border-[#0154A7] flex items-center justify-center">
                                     <Insta/>
                                 </span>
                             </li>
