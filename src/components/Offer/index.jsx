@@ -7,10 +7,10 @@ const index = () => {
 
     const { t } = useTranslation();
     return (
-        <section className="pb-[100px]">
+        <section className="pb-[80px] md:pb-[100px]">
             <div className='container'>
                 <div className='flex flex-col'>
-                    <h2 className="text-[#242424] text-[48px] font-['MontserratSemiBold'] mb-[80px]">{t("offerTitle")}</h2>
+                    <h2 className="text-[#242424] text-[18px] sm:text-[48px] font-['MontserratSemiBold'] mb-[20px] md:mb-[80px]">{t("offerTitle")}</h2>
                 
                     <div className="">
                         <Carousel img={pic}/>

@@ -17,4 +17,6 @@ import YouTube from "./YouTube";
 
 import ArrowRight from "./ArrowRight";
 import ArrowLeft from "./ArrowLeft";
-export {Message, Speed, Security, Like, Logo, Map, Headphone, Convert, Twitter, Facebook, YouTube, Insta, ArrowLeft, ArrowRight};
+import Menu from "./Menu";
+
+export {Message, Speed, Security, Like, Logo, Map, Headphone, Convert, Twitter, Facebook, YouTube, Insta, ArrowLeft, ArrowRight, Menu};

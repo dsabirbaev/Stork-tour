@@ -12,30 +12,31 @@ const index = () => {
 
     const { t } = useTranslation();
     return (
-        <section className="pb-[110px]">
+        <section className="pb-[40px] sm:pb-[60px] md:pb-[110px]">
             <div className="container">
                 <div className="flex flex-col">
-                    <h2 className="text-[#242424] text-[48px] font-['MontserratSemiBold'] mb-[80px]">{t("popularTitle")}</h2>
+                    <h2 className="text-[#242424] text-[18px] sm:text-[48px] font-['MontserratSemiBold'] mb-[20px] sm:mb-[40px] md:mb-[80px]">{t("popularTitle")}</h2>
 
-                    <div className="mb-[110px]">
+                    <div className="mb-[40px] sm:mb-[80px] md:mb-[110px]">
                         <Carousel img={pic}/>
                     </div>
-                    <div className="flex items-center justify-between">
-                        <img src={pic2} alt="img" />
+                    <div className="flex-col lg:flex-row  flex items-center justify-between bg-[#F7F7F7] rounded-[14px] p-5 md:bg-transparent md:p-0 md:rounded-none">
+                        <img className="mb-[30px] lg:mb-[0px]" src={pic2} alt="img" />
 
                         <div className="flex flex-col">
-                            <h3 className="text-[#0154A7] text-[34px] font-['MontserratBold'] mb-5">{t("popularTitle")}</h3>
-                            <p className="mb-[59px] font-['MontserratSemiBold'] text-[16px] text-[#1E1E1E] leading-[22.4px] tracking-[0.64px] w-[649px]">{t("popularText")}</p>
 
-                            <div className="flex gap-x-[80px]">
+                            <h3 className="text-[#0154A7] text-[18px] sm:text-[25px] md:text-[34px] font-['MontserratBold'] mb-[15px] md:mb-5">{t("popularTitle")}</h3>
+                            <p className="mb-[35px] md:mb-[59px] font-['MontserratSemiBold'] text-[14px] md:text-[16px] text-[#1E1E1E] leading-[19px] md:leading-[22.4px] tracking-[0.56px] md:tracking-[0.64px] w-[100%] lg:w-[649px]">{t("popularText")}</p>
+
+                            <div className="flex flex-col md:flex-row gap-y-[32px] md:gap-y-[0px] md:gap-x-[80px]">
                                 <div>
-                                    <p className="text-[#0154A7] font-['MontserratBold'] text-[22px] mb-[13px]">{t("popularStatistics")}</p>
-                                    <p className="text-[#1E1E1E] font-['MontserratBold'] text-[16px] ">{t("popularTravels")}</p>
+                                    <p className="text-[#0154A7] font-['MontserratBold'] text-[20px] md:text-[22px] mb-[10px] md:mb-[13px]">{t("popularStatistics")}</p>
+                                    <p className="text-[#1E1E1E] font-['MontserratBold'] text-[14px] md:text-[16px] ">{t("popularTravels")}</p>
                                 </div>
 
                                 <div>
-                                    <p className="text-[#0154A7] font-['MontserratBold'] text-[22px] mb-[13px]">{t("popularStatistics")}</p>
-                                    <p className="text-[#1E1E1E] font-['MontserratBold'] text-[16px] ">{t("popularRoutes")}</p>
+                                    <p className="text-[#0154A7] font-['MontserratBold'] text-[20px] md:text-[22px] mb-[10px] md:mb-[13px]">{t("popularStatistics")}</p>
+                                    <p className="text-[#1E1E1E] font-['MontserratBold'] text-[14px] md:text-[16px] ">{t("popularRoutes")}</p>
                                 </div>
                             </div>
                         </div>
