@@ -1,7 +1,11 @@
 import { Logo, Map, Headphone, Convert, Facebook, Insta, YouTube, Twitter } from "../Icons";
+
+import { useTranslation } from "react-i18next";
 import "./style.scss";
 
 const index = () => {
+    const { t } = useTranslation();
+
     return (
         <footer className="pt-[43px] pb-[30px]">
             <div className="container">
@@ -10,22 +14,22 @@ const index = () => {
                         <Logo />
 
                         <ul className="flex flex-col gap-y-[10px]">
-                            <li className="text-[#0154A7] font-['MontserratSemiBold'] text-[18px] mb-[15px]">Главная</li>
-                            <li className="text-[#1E1E1ECC] font-['MontserratMedium'] text-[18px]"><a href="#">О компании</a></li>
-                            <li className="text-[#1E1E1ECC] font-['MontserratMedium'] text-[18px]"><a href="#">Путешествия</a></li>
-                            <li className="text-[#1E1E1ECC] font-['MontserratMedium'] text-[18px]"><a href="#">Отзывы</a></li>
-                            <li className="text-[#1E1E1ECC] font-['MontserratMedium'] text-[18px]"><a href="#">Контакты</a></li>
+                            <li className="text-[#0154A7] font-['MontserratSemiBold'] text-[18px] mb-[15px]">{t("home")}</li>
+                            <li className="text-[#1E1E1ECC] font-['MontserratMedium'] text-[18px]"><a href="#">{t("about")}</a></li>
+                            <li className="text-[#1E1E1ECC] font-['MontserratMedium'] text-[18px]"><a href="#">{t("travel")}</a></li>
+                            <li className="text-[#1E1E1ECC] font-['MontserratMedium'] text-[18px]"><a href="#">{t("feedbacks")}</a></li>
+                            <li className="text-[#1E1E1ECC] font-['MontserratMedium'] text-[18px]"><a href="#">{t("footerContact")}</a></li>
                         </ul>
 
                         <ul className="flex flex-col gap-y-[10px]">
-                            <li className="text-[#1E1E1E] font-['MontserratSemiBold'] text-[18px] mb-[15px]">Контактные данные</li>
-                            <li className="flex"> <Map/> <span className="text-[18px] font-['MontserratSemiBold'] text-[#1E1E1E] mx-5">Адрес:</span> <span className="font-['MontserratMedium'] text-[18px] text-[#1E1E1ECC]">Company adress</span></li>
-                            <li className="flex"> <Headphone/> <span className="text-[18px] font-['MontserratSemiBold'] text-[#1E1E1E] mx-5">Телефон номер:</span> <span className="font-['MontserratMedium'] text-[18px] text-[#1E1E1ECC]">+998 90 123 45 67</span></li>
-                            <li className="flex"> <Convert/> <span className="text-[18px] font-['MontserratSemiBold'] text-[#1E1E1E] mx-5">Эл.почта:</span> <span className="font-['MontserratMedium'] text-[18px] text-[#1E1E1ECC]">companymail@gmail.com</span></li>
+                            <li className="text-[#1E1E1E] font-['MontserratSemiBold'] text-[18px] mb-[15px]">{t("footerConData")}</li>
+                            <li className="flex"> <Map/> <span className="text-[18px] font-['MontserratSemiBold'] text-[#1E1E1E] mx-5">{t("address")}:</span> <span className="font-['MontserratMedium'] text-[18px] text-[#1E1E1ECC]">Company adress</span></li>
+                            <li className="flex"> <Headphone/> <span className="text-[18px] font-['MontserratSemiBold'] text-[#1E1E1E] mx-5">{t("phone")}:</span> <span className="font-['MontserratMedium'] text-[18px] text-[#1E1E1ECC]">+998 90 123 45 67</span></li>
+                            <li className="flex"> <Convert/> <span className="text-[18px] font-['MontserratSemiBold'] text-[#1E1E1E] mx-5">{t("email")}:</span> <span className="font-['MontserratMedium'] text-[18px] text-[#1E1E1ECC]">companymail@gmail.com</span></li>
                         </ul>
 
                         <ul className="flex flex-col gap-y-[10px]">
-                            <li className="text-[#1E1E1E] font-['MontserratSemiBold'] text-[18px] mb-[15px]">Социальные сети</li>
+                            <li className="text-[#1E1E1E] font-['MontserratSemiBold'] text-[18px] mb-[15px]">{t("footerSocials")}</li>
                             <li className="flex justify-between items-center gap-x-[10px] cursor-pointer">
                                 <span className="w-[48px] h-[48px] rounded-full border border-[#0154A7] flex items-center justify-center">
                                     <Twitter/>
@@ -47,7 +51,7 @@ const index = () => {
                     </div>
 
                     <div className="text-center text-[#1E1E1E] font-['MontserratRegular'] opacity-[0.5] text-[14px]">
-                        <p>Авторские права © 2023 • Все правы защищены.</p>
+                        <p>{t("footerAuth")}</p>
                        
                     </div>
                 </div>

@@ -15,7 +15,7 @@ const index = () => {
     }
 
     const changeColor = () => {
-        if (window.scrollY < 900) {
+        if (window.scrollY <= 900) {
             setColor(true);
         } else {
             setColor(false)
