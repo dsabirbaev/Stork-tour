@@ -14,4 +14,7 @@ import Twitter from './Twitter';
 import Facebook from "./Facebook";
 import Insta from "./Insta";
 import YouTube from "./YouTube";
-export {Message, Speed, Security, Like, Logo, Map, Headphone, Convert, Twitter, Facebook, YouTube, Insta};
+
+import ArrowRight from "./ArrowRight";
+import ArrowLeft from "./ArrowLeft";
+export {Message, Speed, Security, Like, Logo, Map, Headphone, Convert, Twitter, Facebook, YouTube, Insta, ArrowLeft, ArrowRight};
