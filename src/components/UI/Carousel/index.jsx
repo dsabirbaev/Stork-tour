@@ -1,7 +1,6 @@
 
 import { useTranslation } from "react-i18next";
 
-import { ArrowLeft, ArrowRight} from "../../Icons";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 
@@ -23,41 +22,49 @@ const index = ({img}) => {
                             prevEl: ".button-prev-slide",
                         }}
                         className="tour-slide"
+                        // breakpoints={{
+                        //     // when window width is >= 640px
+                        //     640: {
+                        //       width: 640,
+                        //       slidesPerView: 1,
+                        //     },
+                        //     // when window width is >= 768px
+                        //     768: {
+                        //       width: 768,
+                        //       slidesPerView: 2,
+                        //     },
+                        // }}
                     >
+                       
                         <SwiperSlide className="flex items-center justify-center">
                             <div className="popular-cart relative cursor-pointer duration-200">
                                 <img src={img} alt="img" className="brightness-50 hover:brightness-100"/>
-                                <span className="absolute bottom-[30px] left-[30px] w-[297.143px] text-white font-['MontserratMedium'] text-[24px]">{t("popularCard")}</span>
+                                <span className="absolute bottom-[20px] md:bottom-[30px] left-[20px] md:left-[30px] w-[170px] md:w-[297.143px] text-white font-['MontserratMedium'] text-[16px] md:text-[24px]">{t("popularCard")}</span>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide className="flex items-center justify-center">
                             <div className="popular-cart relative cursor-pointer duration-200">
                                 <img src={img} alt="img" className="brightness-50 hover:brightness-100"/>
-                                <span className="absolute bottom-[30px] left-[30px] w-[297.143px] text-white font-['MontserratMedium'] text-[24px]">{t("popularCard")}</span>
+                                <span className="absolute bottom-[20px] md:bottom-[30px] left-[20px] md:left-[30px] w-[170px] md:w-[297.143px] text-white font-['MontserratMedium'] text-[16px] md:text-[24px]">{t("popularCard")}</span>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide className="flex items-center justify-center">
                             <div className="popular-cart relative cursor-pointer duration-200">
                                 <img src={img} alt="img" className="brightness-50 hover:brightness-100"/>
-                                <span className="absolute bottom-[30px] left-[30px] w-[297.143px] text-white font-['MontserratMedium'] text-[24px]">{t("popularCard")}</span>
+                                <span className="absolute bottom-[20px] md:bottom-[30px] left-[20px] md:left-[30px] w-[170px] md:w-[297.143px] text-white font-['MontserratMedium'] text-[16px] md:text-[24px]">{t("popularCard")}</span>
                             </div>
                         </SwiperSlide>
 
                         <SwiperSlide className="flex items-center justify-center">
                             <div className="popular-cart relative cursor-pointer duration-200">
                                 <img src={img} alt="img" className="brightness-50 hover:brightness-100"/>
-                                <span className="absolute bottom-[30px] left-[30px] w-[297.143px] text-white font-['MontserratMedium'] text-[24px]">{t("popularCard")}</span>
+                                <span className="absolute bottom-[20px] md:bottom-[30px] left-[20px] md:left-[30px] w-[170px] md:w-[297.143px] text-white font-['MontserratMedium'] text-[16px] md:text-[24px]">{t("popularCard")}</span>
                             </div>
                         </SwiperSlide>
                        
-                        <div className="active:bg-sky-200 button-next-slide absolute top-[-130px] right-2 bg-[#0154A7] w-[44px] h-[44px] rounded-full flex items-center justify-center cursor-pointer">
-                           <ArrowRight/> 
-                        </div>
-                        <div className="active:bg-sky-200 button-prev-slide absolute top-[-130px] right-[60px] bg-[#0154A7] w-[44px] h-[44px] rounded-full flex items-center justify-center cursor-pointer">
-                            <ArrowLeft/>
-                        </div>
+                        
                     </Swiper>
         </div>
     );

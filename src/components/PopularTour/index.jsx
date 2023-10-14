@@ -7,6 +7,7 @@ import pic2 from "../../assets/images/popular2.jpg";
 import Carousel from "../UI/Carousel";
 
 import { useTranslation } from "react-i18next";
+import { ArrowLeft, ArrowRight } from "../Icons";
 import "./style.scss";
 const index = () => {
 
@@ -15,11 +16,26 @@ const index = () => {
         <section className="pb-[40px] sm:pb-[60px] md:pb-[110px]">
             <div className="container">
                 <div className="flex flex-col">
-                    <h2 className="text-[#242424] text-[18px] sm:text-[48px] font-['MontserratSemiBold'] mb-[20px] sm:mb-[40px] md:mb-[80px]">{t("popularTitle")}</h2>
+                    <div className="flex items-center justify-between mb-[20px] sm:mb-[40px] md:mb-[80px]">
+                        <h2 className="text-[#242424] text-[18px] sm:text-[24px] md:text-[48px] font-['MontserratSemiBold'] ">{t("popularTitle")}</h2>
+                        <div className="flex gap-x-2">
+                           
+                            <div className="hidden sm:flex active:bg-sky-200 button-prev-slide  bg-[#0154A7] w-[44px] h-[44px] rounded-full  items-center justify-center cursor-pointer">
+                                <ArrowLeft />
+                            </div>
+                            <div className="hidden sm:flex active:bg-sky-200 button-next-slide  bg-[#0154A7] w-[44px] h-[44px] rounded-full  items-center justify-center cursor-pointer">
+                                <ArrowRight />
+                            </div>
+                        </div>
+                    </div>
+
 
                     <div className="mb-[40px] sm:mb-[80px] md:mb-[110px]">
-                        <Carousel img={pic}/>
+                        <Carousel img={pic} />
                     </div>
+
+
+
                     <div className="flex-col lg:flex-row  flex items-center justify-between bg-[#F7F7F7] rounded-[14px] p-5 md:bg-transparent md:p-0 md:rounded-none">
                         <img className="mb-[30px] lg:mb-[0px]" src={pic2} alt="img" />
 
@@ -44,9 +60,9 @@ const index = () => {
                 </div>
 
             </div>
-            
+
         </section>
-        
+
     );
 };
 

@@ -9,7 +9,7 @@ const index = () => {
         <section className="pb-[40px] sm:pb-[60px] md:pb-[80px]">
             <div className="container">
                 <div className="flex flex-col">
-                    <h2 className="text-[#0154A7] font-['MontserratSemiBold'] text-[18px] sm:text-[48px] mb-2">{t("funTitle")}</h2>
+                    <h2 className="text-[#0154A7] font-['MontserratSemiBold'] text-[18px] sm:text-[24px] md:text-[48px] mb-2">{t("funTitle")}</h2>
                     <p className="mb-[40px] md:mb-[80px] text-[#1E1E1E] text-[14px] sm:text-[18px] font-['MontserratSemiBold'] tracking-[0.56px] md:tracking-[0.64px] leading-[19px] md:leading-[25.2px] w-[100%] lg:w-[649px]">{t("funText")}</p>
 
 
