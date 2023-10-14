@@ -1,0 +1,32 @@
+
+
+
+.swiper-pagination{
+    width: fit-content !important;
+    position:  absolute;
+    top: 150px !important;
+     
+}
+
+
+.swiper-pagination-bullet{
+    background-color: white !important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: #0154A7 !important;
+}
+
+@media only screen and (max-width: 500px) {
+    .swiper-pagination{
+        width: fit-content !important;
+        position:  absolute;
+        top: 90% !important;
+        left: 0px !important;
+         
+    }
+   
+}
+
+
+
