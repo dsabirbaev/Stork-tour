@@ -12,7 +12,6 @@ const index = () => {
     return (
         <div>
             <Swiper
-                // direction={'vertical'}
                 slidesPerView={1}
                
                 pagination={{
