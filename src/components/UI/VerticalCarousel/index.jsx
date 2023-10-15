@@ -31,7 +31,7 @@ const index = () => {
             >
                 <SwiperSlide>
                     <div className="flex flex-col gap-y-[20px] text-white">
-                        <h1 className="font-['MontserratSemiBold'] w-[550px] text-[36px] sm:text-[64px] leading-[50px] sm:leading-[89.6px]">{t("introTitle")}</h1>
+                        <h1 className="font-['MontserratSemiBold'] w-[550px] text-[36px] sm:text-[45px] md:text-[64px] leading-[50px] md:leading-[89.6px]">{t("introTitle")}</h1>
                         <p className="font-['NunitoRegular'] text-[16px] sm:text-[24px] w-[352px]">{t("introText")}</p>
                     </div>
                 </SwiperSlide>

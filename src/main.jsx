@@ -5,8 +5,6 @@ import './index.css'
 import router from "./router/index.jsx";
 import { RouterProvider } from "react-router-dom";
 
-import "primereact/resources/themes/lara-light-indigo/theme.css";
-
 import i18next from "./i18n";
 
 ReactDOM.createRoot(document.getElementById('root')).render(

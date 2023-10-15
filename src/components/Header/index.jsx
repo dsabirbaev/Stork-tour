@@ -43,10 +43,10 @@ const index = () => {
     return (
         <header className={`py-[30px]  fixed top-0 left-0 z-50 w-full ${color ? 'bg-transparent' : 'bg-[#000000B3]'} ${menu ? 'bg-white' : null} duration-200`}>
             <div className="container">
-                <nav className="flex items-cnter justify-between sm:text-[16px] md:text-[18px] text-white">
+                <nav className="flex items-cnter justify-between sm:text-[13px] md:text-[14px] lg:text-[18px] text-white">
                     <a href="#"><span className={`font-['NunitoExtraBold'] ${menu ? 'text-black' : 'text-white'}`}>STORK TOUR</span></a>
 
-                    <ul className="hidden sm:flex sm:gap-x-[15px] md:gap-x-[50px] items-center font-['MontserratRegular']">
+                    <ul className="hidden sm:flex  sm:gap-x-[10px] md:gap-x-[20px] lg:gap-x-[50px]  items-center font-['MontserratRegular']">
                         <li className="list-item"><a href="#"> {t("home")}</a></li>
                         <li className="list-item"><a href="#"> {t("about")}</a></li>
                         <li className="list-item"><a href="#"> {t("travel")}</a></li>
