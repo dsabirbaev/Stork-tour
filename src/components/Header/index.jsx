@@ -51,7 +51,7 @@ const index = () => {
                         <li className="list-item"><a href="#"> {t("about")}</a></li>
                         <li className="list-item"><a href="#"> {t("travel")}</a></li>
                         <li className="list-item"><a href="#"> {t("feedbacks")}</a></li>
-                        <li className="list-item"><a href="#"> {t("footerContact")}</a></li>
+                        <li className="list-item"><a href="#contact"> {t("footerContact")}</a></li>
                     </ul>
 
 

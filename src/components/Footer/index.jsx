@@ -7,7 +7,7 @@ const index = () => {
     const { t } = useTranslation();
 
     return (
-        <footer className="pt-[30px] md:pt-[43px] pb-[30px]">
+        <footer id="contact" className="pt-[30px] md:pt-[43px] pb-[30px]">
             <div className="container">
                 <div className="flex flex-col">
                     <div className="flex-col md:flex-row flex justify-between mb-[40px] md:mb-[80px] md:flex-wrap">
